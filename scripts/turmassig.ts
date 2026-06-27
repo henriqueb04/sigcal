@@ -3,16 +3,15 @@ import puppeteer from 'puppeteer-core'
 
 const browser = await puppeteer.launch({
   executablePath: process.env.DEFAULT_BROWSER,
-  headless: false,
+  headless: true,
 })
 const page = await browser.newPage()
 
 await page.goto('https://sigaa.ufpi.br/sigaa/public/curso/turmas.jsf?lc=pt_BR&id=74268')
 
-await Promise.all([
-  page.waitForNavigation({ waitUntil: 'networkidle2' }),
-  page.click('table.formulario tfoot input[type=submit]'),
-]);
+await page.locator('#form\\:inputAno').fill('2026')
+await page.select('#form\\:inputPeriodo', '2'),
+await page.click('table.formulario tfoot input[type=submit]'),
 
 await page.locator('.listagem').wait()
 
@@ -23,7 +22,7 @@ const materias = await page.$$eval('.listagem', elements => elements.map(elem =>
     nome, 
     turmas: ([...elem.querySelectorAll('tbody tr')] as HTMLTableRowElement[]).map(row => ({
       n: (row.querySelector('td[align="center"]') as HTMLTableColElement)?.innerText,
-      professor: (row.querySelector('td.nome') as HTMLTableColElement)?.innerText,
+      professor: (row.querySelector('td.nome') as HTMLTableColElement)?.innerText || "[Não especificado]",
       horario: (row.querySelector('td.horario') as HTMLTableColElement)?.innerText,
     })),
     periodo: null as number | null,
@@ -90,7 +89,7 @@ for (const cod in mats) {
   mats[cod].obrigatoria = spec.obrigatoria
 }
 
-writeFileSync('materiasv2.json', JSON.stringify({
+writeFileSync('../public/materiasv2.json', JSON.stringify({
   horaAtualizado: new Date().toString(),
   materias
 }, null, 2))

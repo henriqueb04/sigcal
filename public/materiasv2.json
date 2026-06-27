@@ -1,5 +1,5 @@
 {
-  "horaAtualizado": "Thu Dec 11 2025 01:06:55 GMT-0300 (Brasilia Standard Time)",
+  "horaAtualizado": "Sat Jun 27 2026 17:48:04 GMT-0300 (Brasilia Standard Time)",
   "materias": [
     {
       "cod": "DMAT/CCN034",
@@ -7,7 +7,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "CARLOS HUMBERTO SOARES JUNIOR",
+          "professor": "[Não especificado]",
           "horario": "24M34"
         }
       ],
@@ -59,7 +59,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "PAULO ALEXANDRE ARAUJO SOUSA",
+          "professor": "[Não especificado]",
           "horario": "24T34"
         }
       ],
@@ -72,7 +72,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "DOMINGOS SAVIO MACEDO MENDES",
+          "professor": "[Não especificado]",
           "horario": "24M56"
         }
       ],
@@ -130,32 +130,6 @@
       ],
       "periodo": 7,
       "obrigatoria": true
-    },
-    {
-      "cod": "DFIS/CCN020",
-      "nome": "ELETRICIDADE E MAGNETISMO",
-      "turmas": [
-        {
-          "n": "01",
-          "professor": "MARIA DE NAZARE BANDEIRA DOS SANTOS",
-          "horario": "24M56"
-        }
-      ],
-      "periodo": 5,
-      "obrigatoria": false
-    },
-    {
-      "cod": "DC/CCN050",
-      "nome": "EMPREENDEDORISMO",
-      "turmas": [
-        {
-          "n": "01",
-          "professor": "RICARDO DE ANDRADE LIRA RABELO",
-          "horario": "35T56"
-        }
-      ],
-      "periodo": 5,
-      "obrigatoria": false
     },
     {
       "cod": "DC/CCN039",
@@ -241,7 +215,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "FRANCISCO WELLINGTON BORGES GOMES",
+          "professor": "WANDER NUNES FROTA",
           "horario": "24M34"
         }
       ],
@@ -254,7 +228,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "VINICIUS PONTE MACHADO",
+          "professor": "[Não especificado]",
           "horario": "35M56"
         }
       ],
@@ -280,7 +254,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "KELSON ROMULO TEIXEIRA AIRES",
+          "professor": "JOSE EDSON CARVALHO MELO",
           "horario": "35M34"
         }
       ],
@@ -292,8 +266,8 @@
       "nome": "INTRODUÇÃO A METODOLOGIA CIENTIFICA",
       "turmas": [
         {
-          "n": "05",
-          "professor": "ATILA BRANDAO MONTEIRO",
+          "n": "01",
+          "professor": "[Não especificado]",
           "horario": "24M56"
         }
       ],
@@ -319,7 +293,7 @@
       "turmas": [
         {
           "n": "02",
-          "professor": "WESLEY VELOSO CARDOSO",
+          "professor": "[Não especificado]",
           "horario": "35T34"
         }
       ],
@@ -345,7 +319,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "ISAIAS PEREIRA DE JESUS",
+          "professor": "[Não especificado]",
           "horario": "24T34"
         }
       ],
@@ -358,7 +332,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "JARDENIA SOBRINHO GOES DE AQUINO",
+          "professor": "[Não especificado]",
           "horario": "24T34"
         }
       ],
@@ -371,25 +345,12 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "DANIELA BANDEIRA DE CARVALHO",
+          "professor": "LAILA LETICIA DA SILVA COSTA",
           "horario": "24T56"
         }
       ],
       "periodo": 3,
       "obrigatoria": true
-    },
-    {
-      "cod": "DC/CCN061",
-      "nome": "PROCESSAMENTO DE LINGUAGEM NATURAL",
-      "turmas": [
-        {
-          "n": "01",
-          "professor": "RAIMUNDO SANTOS MOURA",
-          "horario": "35T56"
-        }
-      ],
-      "periodo": 7,
-      "obrigatoria": false
     },
     {
       "cod": "DC/CCN037",
@@ -441,7 +402,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "ANTONIO COSTA DE OLIVEIRA",
+          "professor": "RICARDO DE ANDRADE LIRA RABELO",
           "horario": "24M34"
         }
       ],
@@ -488,26 +449,13 @@
       "obrigatoria": true
     },
     {
-      "cod": "DEFE/CCE007",
-      "nome": "RELAÇÕES ÉTNICO-RACIAIS, GÊNERO E DIVERSIDADE",
-      "turmas": [
-        {
-          "n": "01",
-          "professor": "MARIA DO SOCORRO BORGES DA SILVA",
-          "horario": "24T34"
-        }
-      ],
-      "periodo": 5,
-      "obrigatoria": false
-    },
-    {
       "cod": "DC/CCN040",
       "nome": "SEGURANÇA EM SISTEMAS",
       "turmas": [
         {
           "n": "01",
           "professor": "CARLOS ANDRE BATISTA DE CARVALHO",
-          "horario": "24T34"
+          "horario": "35T34"
         }
       ],
       "periodo": 5,
@@ -610,8 +558,8 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "GLAUBER DIAS GONCALVES",
-          "horario": "35M34"
+          "professor": "ARMANDO SOARES SOUSA",
+          "horario": "24M56"
         }
       ],
       "periodo": 8,
@@ -625,6 +573,11 @@
           "n": "01",
           "professor": "ARMANDO SOARES SOUSA",
           "horario": "24T34"
+        },
+        {
+          "n": "02",
+          "professor": "GUILHERME AMARAL AVELINO",
+          "horario": "35M56"
         }
       ],
       "periodo": 8,
@@ -636,13 +589,8 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "RICARDO DE ANDRADE LIRA RABELO",
-          "horario": "35N12"
-        },
-        {
-          "n": "02",
-          "professor": "ANDRE CASTELO BRANCO SOARES",
-          "horario": "24M34"
+          "professor": "RAIMUNDO SANTOS MOURA",
+          "horario": "35T56"
         }
       ],
       "periodo": 8,
@@ -654,11 +602,6 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "IVAN SARAIVA SILVA",
-          "horario": "35T56"
-        },
-        {
-          "n": "02",
           "professor": "ROSIANNI DE OLIVEIRA CRUZ FORTES",
           "horario": "6T3456"
         }
@@ -673,7 +616,20 @@
         {
           "n": "01",
           "professor": "ERICO MENESES LEAO",
-          "horario": "35T34"
+          "horario": "35M56"
+        }
+      ],
+      "periodo": 8,
+      "obrigatoria": false
+    },
+    {
+      "cod": "DC/CCN076",
+      "nome": "TÓPICOS EM SISTEMAS COMPUTACIONAIS",
+      "turmas": [
+        {
+          "n": "01",
+          "professor": "RICARDO DE ANDRADE LIRA RABELO",
+          "horario": "24M56"
         }
       ],
       "periodo": 8,
@@ -690,72 +646,52 @@
         },
         {
           "n": "02",
-          "professor": "RAIMUNDO SANTOS MOURA",
+          "professor": "LAURINDO DE SOUSA BRITTO NETO",
           "horario": "6M3456"
         },
         {
           "n": "03",
-          "professor": "ARMANDO SOARES SOUSA",
+          "professor": "CARLOS ANDRE BATISTA DE CARVALHO",
           "horario": "6M3456"
         },
         {
           "n": "04",
-          "professor": "ERICO MENESES LEAO",
+          "professor": "ARMANDO SOARES SOUSA",
           "horario": "6M3456"
         },
         {
           "n": "05",
-          "professor": "ANTONIO COSTA DE OLIVEIRA",
+          "professor": "GLAUBER DIAS GONCALVES",
           "horario": "6M3456"
         },
         {
           "n": "06",
-          "professor": "IVAN SARAIVA SILVA",
+          "professor": "RICARDO DE ANDRADE LIRA RABELO",
           "horario": "6M3456"
         },
         {
           "n": "07",
+          "professor": "RAIMUNDO SANTOS MOURA",
+          "horario": "6M3456"
+        },
+        {
+          "n": "08",
           "professor": "FLAVIO FERRY DE OLIVEIRA MOREIRA",
           "horario": "6M3456"
         },
         {
           "n": "09",
-          "professor": "CARLOS ANDRE BATISTA DE CARVALHO",
-          "horario": "6M3456"
-        },
-        {
-          "n": "10",
-          "professor": "JOSE RODRIGUES TORRES NETO",
-          "horario": "6M3456"
-        },
-        {
-          "n": "11",
-          "professor": "RICARDO DE ANDRADE LIRA RABELO",
-          "horario": "6M3456"
-        },
-        {
-          "n": "12",
-          "professor": "VINICIUS PONTE MACHADO",
-          "horario": "6M3456"
-        },
-        {
-          "n": "13",
-          "professor": "GUILHERME AMARAL AVELINO",
-          "horario": "6M3456"
-        },
-        {
-          "n": "14",
-          "professor": "GLAUBER DIAS GONCALVES",
-          "horario": "6M3456"
-        },
-        {
-          "n": "15",
           "professor": "ANDRE CASTELO BRANCO SOARES",
           "horario": "6M3456"
         },
         {
-          "n": "16",
-          "professor": "PEDRO DE ALCANTARA DOS SANTOS NETO",
+          "n": "10",
+          "professor": "ERICO MENESES LEAO",
+          "horario": "6M3456"
+        },
+        {
+          "n": "11",
+          "professor": "KELSON ROMULO TEIXEIRA AIRES",
           "horario": "6M3456"
         }
       ],
@@ -768,8 +704,8 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "LAURINDO DE SOUSA BRITTO NETO",
-          "horario": "35T34"
+          "professor": "KELSON ROMULO TEIXEIRA AIRES",
+          "horario": "35M34"
         }
       ],
       "periodo": 8,
