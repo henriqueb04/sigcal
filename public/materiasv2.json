@@ -1,5 +1,5 @@
 {
-  "horaAtualizado": "Sat Jun 27 2026 17:48:04 GMT-0300 (Brasilia Standard Time)",
+  "horaAtualizado": "Mon Jul 27 2026 13:56:59 GMT-0300 (Brasilia Standard Time)",
   "materias": [
     {
       "cod": "DMAT/CCN034",
@@ -7,7 +7,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "[Não especificado]",
+          "professor": "FRANCIANE DE BRITO VIEIRA",
           "horario": "24M34"
         }
       ],
@@ -59,7 +59,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "[Não especificado]",
+          "professor": "ISAIAS PEREIRA DE JESUS",
           "horario": "24T34"
         }
       ],
@@ -72,7 +72,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "[Não especificado]",
+          "professor": "PAULO ALEXANDRE ARAUJO SOUSA",
           "horario": "24M56"
         }
       ],
@@ -267,7 +267,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "[Não especificado]",
+          "professor": "MARTIN ADAM MOTLOCH",
           "horario": "24M56"
         }
       ],
@@ -319,7 +319,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "[Não especificado]",
+          "professor": "CARLOS HUMBERTO SOARES JUNIOR",
           "horario": "24T34"
         }
       ],
@@ -332,7 +332,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "[Não especificado]",
+          "professor": "VITALIANO DE SOUSA AMARAL",
           "horario": "24T34"
         }
       ],

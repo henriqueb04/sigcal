@@ -19,7 +19,7 @@ const materias = await page.$$eval('.listagem', elements => elements.map(elem =>
   const [ , cod, nome ] = (elem.querySelector('.subListagem a') as HTMLAnchorElement).innerText.match(/(\S+)\s-\s(.*)/)!
   return {
     cod,
-    nome, 
+    nome,
     turmas: ([...elem.querySelectorAll('tbody tr')] as HTMLTableRowElement[]).map(row => ({
       n: (row.querySelector('td[align="center"]') as HTMLTableColElement)?.innerText,
       professor: (row.querySelector('td.nome') as HTMLTableColElement)?.innerText || "[Não especificado]",
@@ -89,7 +89,7 @@ for (const cod in mats) {
   mats[cod].obrigatoria = spec.obrigatoria
 }
 
-writeFileSync('../public/materiasv2.json', JSON.stringify({
+writeFileSync('./public/materiasv2.json', JSON.stringify({
   horaAtualizado: new Date().toString(),
   materias
 }, null, 2))

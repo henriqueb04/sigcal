@@ -16,24 +16,31 @@ type MateriaJson = {
   obrigatoria: boolean;
 }
 
-function sdbm(str: string) {
-  let hashCode = 0;
+function fnv1a(str: string): number {
+  let hash = 2166136261;
   for (let i = 0; i < str.length; i++) {
-    const char = str.charCodeAt(i);
-    hashCode = char + (hashCode << 6) + (hashCode << 16) - hashCode;
+    hash ^= str.charCodeAt(i);
+    hash = Math.imul(hash, 16777619);
   }
-  return hashCode;
+  return hash
 };
 
-const saturationRange = [10, 100] as const
-const lightnessRange = [55, 85] as const
+const hueRange = [0, 360] as [number, number]
+const saturationRange = [20, 70] as [number, number]
+const lightnessRange = [70, 80] as [number, number]
+
+function clampHash(v: number, [min, max]: [number, number]) {
+  return (v % (max - min)) + min
+}
 
 function genColor(nome: string) {
-  const hash = Math.abs(sdbm(nome))
-  return `hsl(${hash % 181}, ${
-    (hash ** 2 % (saturationRange[1] - saturationRange[0])) + saturationRange[0]
+  const hash = Math.abs(fnv1a(nome))
+  return `hsl(${
+    clampHash(hash, hueRange)
+  }, ${
+    clampHash(hash * 17, saturationRange)
   }%, ${
-    (hash * 3 % (lightnessRange[1] - lightnessRange[0])) + lightnessRange[0]
+    clampHash(hash * 23, lightnessRange)
   }%) /* ${hash} */`
 }
 
