@@ -1,5 +1,5 @@
 {
-  "horaAtualizado": "Mon Jul 27 2026 13:56:59 GMT-0300 (Brasilia Standard Time)",
+  "horaAtualizado": "Tue Nov 17 2026 00:32:07 GMT-0300 (Brasilia Standard Time)",
   "materias": [
     {
       "cod": "DMAT/CCN034",
@@ -228,7 +228,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "[Não especificado]",
+          "professor": "PEDRO ALMIR MARTINS DE OLIVEIRA",
           "horario": "35M56"
         }
       ],
@@ -293,7 +293,7 @@
       "turmas": [
         {
           "n": "02",
-          "professor": "[Não especificado]",
+          "professor": "MARIA ALICE DE SOUSA ROCHA",
           "horario": "35T34"
         }
       ],
@@ -345,7 +345,7 @@
       "turmas": [
         {
           "n": "01",
-          "professor": "LAILA LETICIA DA SILVA COSTA",
+          "professor": "CLEIDE MAYRA MENEZES LIMA",
           "horario": "24T56"
         }
       ],
@@ -647,11 +647,6 @@
         {
           "n": "02",
           "professor": "LAURINDO DE SOUSA BRITTO NETO",
-          "horario": "6M3456"
-        },
-        {
-          "n": "03",
-          "professor": "CARLOS ANDRE BATISTA DE CARVALHO",
           "horario": "6M3456"
         },
         {

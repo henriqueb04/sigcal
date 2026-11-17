@@ -10,8 +10,13 @@ const page = await browser.newPage()
 await page.goto('https://sigaa.ufpi.br/sigaa/public/curso/turmas.jsf?lc=pt_BR&id=74268')
 
 await page.locator('#form\\:inputAno').fill('2026')
-await page.select('#form\\:inputPeriodo', '2'),
-await page.click('table.formulario tfoot input[type=submit]'),
+await page.select('#form\\:inputPeriodo', '2')
+
+await Promise.all([
+  await page.click('table.formulario tfoot input[type=submit]'),
+  page.waitForNetworkIdle(),
+])
+
 
 await page.locator('.listagem').wait()
 
